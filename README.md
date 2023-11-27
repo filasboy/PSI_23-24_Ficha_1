@@ -13,37 +13,37 @@ Escreve as respostas dentro dos blocos correspondentes. Substitui as reticência
 ## E1 - Responde às seguintes questões (4v)
 
     1 - As classes são tipos de referência? 
-        ...
-    2 - (Classes/Instâncias) definem o que algo pode fazer e guardar, enquanto uma
-        (classe/instância) é um objeto específico que contém o seu próprio estado 
+        Em programação e na orientação a objetos, uma classe é um Tipo abstrato de Dado
+    2   Instânciasdefinem o que algo pode fazer e guardar, enquanto uma
+        classe é um objeto específico que contém o seu próprio estado 
         (Apaga a opção entre parênteses errada)
     3 - Indica três tipos de membros que podem pertencer a uma classe 
-        ...
+        Os membros de uma classe em C++ podem pertencer a uma de três categorias de acesso: público, protegido e privado
     4 - Se algo é static então é partilhado por todas as instâncias desse tipo específico? 
-        ...
+        Por outro lado, um campo estático pertence ao tipo propriamente dito e é partilhado entre todas as instâncias desse tipo
     5 - Como se chamam os métodos especiais que inicializam uma classe? 
-        ...
+        Construtores são basicamente funções de inicialização de uma classe, as quais são invocadas no momento em que objetos desta classe são criadas
     6 - De onde podes aceder a algo private? 
-        ...
+         private: O tipo ou membro pode ser acessado apenas por código no mesmo class ou struct
     7 - De onde podes aceder a algo public? 
-        ... 
+         Quando utilizamos a palavra public, liberamos o acesso do atributo/método/classe para ser utilizado por qualquer um
     8 - De onde podes aceder a algo internal? 
         ...
 
 ## E2 - Explica por palavras tuas o significado dos seguintes termos (4v)
 
     1 - Classe
-        ...
+        Em síntese, a classe é um conjunto de objetos com características em comum. E é justamente a classe quem define o comportamento do objeto. 
     2 - Objeto / instância
-        ...
+        Em programação orientada a objetos, chama-se instância de uma classe, um objeto cujo comportamento e estado são definidos pela classe
     3 - Método
-        ...
+        Um método é uma sub-rotina que é executada por um objeto ao receber uma mensagem. Os métodos determinam o comportamento dos objetos de uma classe e são análogos a funções ou procedimentos da programação estruturada.
     4 - Construtor
         ...
     5 - Variável de instância
-        ...
+        Um programa pode criar muitos objetos da mesma classe. Os objetos também são denominados instâncias e podem ser armazenados numa variável com nome ou numa matriz ou coleção
     6 - Variável local
-        ...
+        uma variável local é uma variável temporária que só é conhecida (somente existe) na função onde foi criada.
     7 - Overloading
         ...
     8 - Encapsulação

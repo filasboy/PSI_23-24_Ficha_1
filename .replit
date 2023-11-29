@@ -1,5 +1,4 @@
 run = "dotnet run"
-entrypoint = "main.cs"
 
 hidden = ["bin", "obj"]
 
@@ -26,5 +25,5 @@ pattern = "**/*.cs"
   start = ["OmniSharp", "--languageserver"]
 
 [deployment]
-run = ["dotnet", "run"]
+run = ["sh", "-c", "dotnet run"]
 deploymentTarget = "cloudrun"

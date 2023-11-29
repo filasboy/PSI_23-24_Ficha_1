@@ -57,15 +57,6 @@ namespace BolasColoridas
            get { return (_red + _green + _blue) / 3; }
        }
 
-       // Exemplo de uso:
-       static void Main()
-       {
-           Cor cor1 = new Cor(100, 150, 200, 128);
-           Console.WriteLine($"Componentes da cor1: Red={cor1.Red}, Green={cor1.Green}, Blue={cor1.Blue}, Alpha={cor1.Alpha}");
-           Console.WriteLine($"Grau de cinza da cor1: {cor1.GrauCinzento}");
-
-           Cor cor2 = new Cor(50, 75, 100);
-           Console.WriteLine($"Componentes da cor2: Red={cor2.Red}, Green={cor2.Green}, Blue={cor2.Blue}, Alpha={cor2.Alpha}");
-           Console.WriteLine($"Grau de cinza da cor2: {cor2.GrauCinzento}");
-       }
+       
    }
+  }
